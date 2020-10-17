@@ -38,7 +38,7 @@ Dado que el aporte de valor es una suma aritmética, entonces el eliminar el apo
     for(int v = 1; i <= V; ++v){ // Recorre todos los valores (en este caso volúmenes) distintos
       f[i][v] = f[i - 1][v];     // Si va a ser **Fuera** no aporta valor y se toma el óptimo de los elementos previos
       if (v - volumen[i] >= 0)
-        f[i][v] = max(f[i][v], f[i - 1][v - volumen[i]]); // Revisa la opción de que este **Dentro** de la mochila
+        f[i][v] = max(f[i][v], f[i - 1][v - volumen[i]] + precio[i]); // Revisa la opción de que este **Dentro** de la mochila
     }
   }
 ```
