@@ -8,4 +8,4 @@ Aunque no hay reglas específicas de cómo aplicar la programación dinámica, d
 
 ## Aplicaciones clásicas
 
-* [Conjunto de elementos, cada uno con un conjunto de estados posibles que aporta un valor específico a un total](./dp_elementos_estados_total.md)
+* [Conjunto de elementos, cada uno con un conjunto de estados posibles que aporta un valor específico a un total](./dp_elementos_estado_total.md)
